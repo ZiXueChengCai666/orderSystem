@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>JsonServletMenu</servlet-name>
+        <servlet-class>Servlet.JsonServletMenu</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonServletMenu</servlet-name>
+        <url-pattern>/Servlet/JsonServletMenu/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>JsonServletTitle</servlet-name>
+        <servlet-class>Servlet.JsonServletTitle</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>JsonServletTitle</servlet-name>
+        <url-pattern>/Servlet/JsonServletTitle/</url-pattern>
+    </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>ReceptOrderServlet</servlet-name>
+        <servlet-class>Servlet.ReceptOrderServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ReceptOrderServlet</servlet-name>
+        <url-pattern>/Servlet/ReceptOrderServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DeleteServlet</servlet-name>
+        <servlet-class>Servlet.DeleteServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddServlet</servlet-name>
+        <servlet-class>Servlet.AddServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddServlet</servlet-name>
+        <url-pattern>/Servlet/AddServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateServlet</servlet-name>
+        <servlet-class>Servlet.UpdateServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateServlet</servlet-name>
+        <url-pattern>/Servlet/UpdateServlet/</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>DeleteMenuServlet</servlet-name>
+        <servlet-class>Servlet.DeleteMenuServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DeleteMenuServlet</servlet-name>
+        <url-pattern>/Servlet/DeleteMenuServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddMenuServlet</servlet-name>
+        <servlet-class>Servlet.AddMenuServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddMenuServlet</servlet-name>
+        <url-pattern>/Servlet/AddMenuServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UpdateMenuServlet</servlet-name>
+        <servlet-class>Servlet.UpdateMenuServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UpdateMenuServlet</servlet-name>
+        <url-pattern>/Servlet/UpdateMenuServlet/</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AddServletPC</servlet-name>
+        <servlet-class>Servlet.AddServletPC</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AddServletPC</servlet-name>
+        <url-pattern>/Servlet/AddServletPC/</url-pattern>
+    </servlet-mapping>
+</web-app>

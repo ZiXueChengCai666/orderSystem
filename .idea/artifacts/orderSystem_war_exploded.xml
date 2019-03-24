@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="orderSystem:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/orderSystem_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="orderSystem/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="orderSystem" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/java/Gson/gson-2.2.4.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/commons-beanutils-1.8.0.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/commons-collections-3.2.1.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/commons-lang-2.4.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/commons-logging-1.1.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/ezmorph-1.0.6.jar" />
+          <element id="file-copy" path="D:/java/Gson/JsonObject/json-lib-2.4-jdk15.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
